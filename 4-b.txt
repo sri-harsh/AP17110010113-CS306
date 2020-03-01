@@ -1,7 +1,7 @@
 //Implementation of Lexical Analyzer using Lex tool
 %{
 int c=0;
-int symboltable[100];
+char symboltable[100][100];
 %}
 
 /*lex code to determine whether input is an identifier or not*/
